@@ -24,7 +24,6 @@ CLASS ZCL_AG_APACK IMPLEMENTATION.
     if_apack_manifest~descriptor-version         = '1.0.0'.
     if_apack_manifest~descriptor-repository_type = 'abapGit'.
     if_apack_manifest~descriptor-git_url         = 'https://github.com/abapGit-tests/CLAS_APACK.git'.
-    if_apack_manifest~descriptor-target_package  = '$APACK'.
 
   ENDMETHOD.
 ENDCLASS.
